@@ -1,0 +1,20 @@
+name: microbiome-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - jupyterlab
+  - notebook
+  - openpyxl
+  - pip
+  - pip:
+      - python-docx
+      - pyyaml
